@@ -51,7 +51,7 @@ This repository implements multi-label classification based on [compact convolut
 1. Put images in the `datasets` folder. 
 2. Annotate the images and provide `train.csv` and `val.csv` in the format described below.
 
-><details><summary><b>format of train.csv (val.csv)<b></summary>
+><details><summary><b>format of train.csv (val.csv)</b></summary>
 >
 >Image paths in the "filename" field must be **absolute paths**. You can change the number and names of custom labels ("label1", "label2", ..., "labeln"), but the `"no_object"` field must always be present. It denotes whether there is one of the labels (from "label1" to "labeln") in an image. `"no_object"=1` means there are no labels at all (so all other labels are set to 0). `"no_object"=0` means there is at least one label in an image.
 >
