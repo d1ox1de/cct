@@ -1,0 +1,16 @@
+batch_size: 64
+optimizer: 'Adam' # SGD also available
+
+#base model (head training)
+epochs: 10
+lr: 0.001 # 0.01 - SGD (for Adam 0.001 is default)
+
+#finetune
+epochs_ft: 20
+lr_ft: 0.0002
+num_blocks: 2 # num blocks to unfreeze
+
+
+weights: '../weights/cct_14_7x2_224_imagenet.pt'
+csv_train: '../csv/train.csv'
+csv_val: '../csv/val.csv'

@@ -1,0 +1,18 @@
+# labels ["no_object", "label1", "label2", "label3", "label4"]
+
+flip_lr: 0.5
+flip_ud: 0.0
+
+hsv_h: 0.015  # image HSV-Hue augmentation (fraction)
+hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
+hsv_v: 0.4  # image HSV-Value augmentation (fraction)
+
+angle_max: 5 # image rotation in degrees 
+
+# for loss function, see src/utils/general.py/compute_loss
+class_weights: [1., 1., 1., 1., 1.] # null
+loss_class_scaler: 2. 
+
+#oversamples (undersamples) each class (only genuine photos) with the following values (num_origin --> num_origin + num_oversamples)
+is_balanced_sampler: False
+num_oversamples:  [0, 100, 100, 0, 0] #null

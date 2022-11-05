@@ -1,0 +1,7 @@
+numpy
+pandas
+pyyaml==6.0
+tqdm==4.64.1
+tensorboard
+setuptools==59.5.0
+opencv-python==4.5.5.64
