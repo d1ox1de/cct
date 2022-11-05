@@ -1,0 +1,6 @@
+filename,no_object,label1,label2,label3,label4
+/cct/datasets/img1.jpg,1,0,0,0,0
+/cct/datasets/img2.jpg,0,1,0,0,0
+/cct/datasets/img3.jpg,0,1,0,1,0
+/cct/datasets/img4.jpg,0,0,1,0,0
+/cct/datasets/img5.jpg,0,0,0,1,1
